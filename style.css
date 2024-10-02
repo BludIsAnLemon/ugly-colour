@@ -8,9 +8,9 @@ body {
   text-align: center;
   height: 1280px;
   width: 1920px;
+  background-color: gold;
   min-width: 1920px;
   min-height: 1280px;
-  background-color: gold;
 }
 
 * {
@@ -22,7 +22,7 @@ button {
   border-radius: 10px;
   color: white;
   background-color: dodgerblue;
-  width: 100px;
+  width: 150px;
   height: 50px;
   font-size: 15px;
   transition: all ease-in-out 0.5s;
@@ -56,8 +56,8 @@ button:hover {
 #window-Content {
   box-shadow: 15px 15px 0px #222;
   border-radius: 15px;
-  width: 35vh;
-  height: 20vh;
+  width: 35%;
+  height: 25%;
   background-color: #f0c013;
   border-style: solid;
   border-color: black;
