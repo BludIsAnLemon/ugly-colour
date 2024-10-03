@@ -51,6 +51,7 @@ button:hover {
   border-color: black;
   border-width: 2.5px;
   box-shadow: 7.5px 7.5px 0px #222;
+  transition: all ease-out 0.25s;
 }
 
 #window-Content {
