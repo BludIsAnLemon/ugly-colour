@@ -8,13 +8,14 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
   <meta content="Ugly Colour Pallete Generator" property="og:title" />
   <meta content="Generate ugly colour palletes with this website!" property="og:description" />
-  <meta content="https://ugly-colour.netlify.app" property="og:url" />
+  <meta content="https://ugly-color.netlify.app" property="og:url" />
   <meta content="#EBC6F9" data-react-helmet="true" name="theme-color" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
 </head>
 <body>
   <div id="window-Content">
     <h1>Ugly Colour Pallete Generator</h1>
-    <div id="colour-Pallete">
+    <div id="colour-Pallete" class="capture-Zone">
      <div id="color1" class="color" onclick="copyText(this.textContent)">#FFFFFF</div>
       <div id="color2" class="color" onclick="copyText(this.textContent)">#FFFFFF</div>
       <div id="color3" class="color" onclick="copyText(this.textContent)">#FFFFFF</div>
@@ -23,6 +24,10 @@
     </div>
    <button type="submit" id="genBtn">Generate</button>
   </div>
+  <br>
+  <br>
+  <br>
+  <button id="downloadBtn" style="width: 200px">Download Pallete</button>
   <script src="main.js"></script>
 </body>
 </html>
